@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run notifygate-api",
+            "type": "go",
+            "request": "launch",
+            "windows": {
+                "output": "${workspaceFolder}/bin/notifygate-api.exe"
+            },
+            "output": "${workspaceFolder}/bin/notifygate-api",
+            "cwd": "${workspaceFolder}/bin",
+            "mode": "debug",
+            //"program": "${fileDirname}",
+            "program": "${workspaceFolder}/api/cmd/apisrv",
+            "env": {
+            },
+            "args": [
+                ""
+            ],
+            "showLog": true
+        }
+    ],
+
+}
